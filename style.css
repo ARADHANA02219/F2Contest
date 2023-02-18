@@ -1,0 +1,53 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.form-control{
+    width: 20%;
+    height: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;    border-radius: 3px;
+    background-color: white;
+    margin-left: 6px;
+}
+.title{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 6px 6px;
+}
+
+.form-fields{
+    margin-bottom: 16px;
+}
+input[type="text"]{
+
+    padding: 0px 14px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.btn{
+    width: 25%;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    background: #e4e2f0;
+    border: none;
+    color: black;
+}
+
+table, th, td{
+    
+    border: 1px solid rgb(11, 19, 20);
+    border-collapse: collapse;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+th{
+    background-color: white;
+}
+
+td:nth-child(odd){
+    background-color: white;
+}
